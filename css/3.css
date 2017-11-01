@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* Incomms Standard part CJS 130503 */
+
+/* 공통 */
+.cs_timer{width:590px;margin-bottom:27px;font-family:'나눔고딕',NanumGothic}
+.cs_timer h3{font-size:13px}
+.cs_timer a{text-decoration:none}
+
+/* 타이머 컨튼츠 영역 */
+.cs_timer .time_set{padding:16px 0 0 30px}
+.cs_timer .time_set .hour_area,.cs_timer .time_set .minute_area,.cs_timer .time_set .second_area{position:relative;width:119px;height:53px;float:left}
+.cs_timer .time_set .txt{display:block;float:right;width:33px;height:16px;margin-top:34px;text-indent:-9999px;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat -282px 1px}
+.cs_timer .time_set .txt2{background-position:-332px 1px}
+.cs_timer .time_set .txt3{background-position:-376px 1px}
+.cs_timer .timer_area{height:87px;border:1px solid #fff;border-width:1px 0 1px 0}
+.cs_timer .timer_area a{text-indent:-9999px}
+
+/*  숫자 스프라이트  */
+.cs_timer .time_set .roll_bg .num{float:left;display:block;overflow:hidden;width:19px;height:39px;border:0;background:none;margin-right:8px;font-family:Arial, Helvetica, sans-serif;font-weight:bold;color:#2e2e30;font-size:34px}
+.cs_timer .time_set .roll_bg input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {-webkit-appearance:none;margin: 0}
+.cs_timer .time_set a{display:block;position:absolute;overflow:hidden;width:22px;height:22px;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat}
+.cs_timer .time_set .btn_up{top:6px;right:32px;background-position:-638px 0}
+.cs_timer .time_set .btn_up:hover{background-position:-666px 0}
+.cs_timer .time_set .btn_down{top:27px;right:32px;background-position:-638px -26px}
+.cs_timer .time_set .btn_down:hover{top:27px;right:32px;background-position:-666px -26px}
+
+/* 알림시간 선택 탭 */
+.cs_timer .time_help{position:relative;overflow:hidden;width:588px;height:37px;margin-left:-1px;border:1px solid #d3d3d3;background:#f5f5f5}
+.cs_timer .time_help .line{display:block;position:absolute;top:0;left:0;width:588px;border-top:2px solid #000;opacity:0.02;filter:alpha(opacity=2)}
+.cs_timer .time_help li:first-child{background:none}
+.cs_timer .time_help li:first-child .slct{top:7px;left:17px}
+.cs_timer .time_help li:last-child.slct{width:98px !important}
+.cs_timer .time_help li{position:relative;width:90px;float:left;height:34px;line-height:34px;text-align:center;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/bg_bar.png) no-repeat 0 12px}
+.cs_timer .time_help .slct{display:block;position:absolute;top:5px;left:20px;width:47px;height:20px;margin:4px 0 0 5px;text-indent:-9999px;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat;cursor:pointer}
+.cs_timer_popup .time_help .slct{margin:4px 0 0 9px !important}
+.cs_timer .time_help .sp_n1{background-position:-362px -71px}
+.cs_timer .time_help .sp_n2{background-position:-362px -110px}
+.cs_timer .time_help .sp_n2{margin:4px 0 0 6px;background-position:-362px -110px}
+.cs_timer .time_help .sp_n3{margin:4px 0 0 7px;background-position:-362px -151px}
+.cs_timer_popup .time_help .sp_n3{background-position:-362px -151px}
+.cs_timer .time_help .sp_n4{background-position:-362px -192px}
+.cs_timer .time_help .sp_n5{background-position:-362px -233px}
+.cs_timer .time_help .sp_n6{width:50px;background-position:-362px -274px}
+
+.cs_timer .time_help .sp_n1:hover{background-position:-417px -71px}
+.cs_timer .time_help .sp_n2:hover{background-position:-417px -110px}
+.cs_timer .time_help .sp_n3:hover{background-position:-417px -151px }
+.cs_timer .time_help .sp_n4:hover{background-position:-417px -192px}
+.cs_timer .time_help .sp_n5:hover{background-position:-417px -233px}
+.cs_timer .time_help .sp_n6:hover{width:50px;background-position:-417px -274px}
+
+.cs_timer .time_help  .btn_popup{display:inline-block;width:43px;height:37px;margin-left:5px;;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat -499px 0}
+
+/* 버튼영역 */
+
+
+/* 팝업 */
+.cs_timer .pop_up{position:absolute;top:-1px;left:50%; margin-left:-160px;width:320px;height:127px;border:1px solid #7b8085;font-size:13px;color:#000;background:#fff;z-index:100}
+.cs_timer .pop_up a{display:block;position:absolute;width:55px;height:25px;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat -192px -291px;text-indent:-9999px}
+.cs_timer .pop_up .btn_conform{bottom:19px;left:132px}
+.cs_timer .pop_up .btn_close{top:13px;right:13px;width:15px;height:15px;background-position:-785px 0}
+.cs_timer .pop_up p{padding:30px 0 0 56px}
+.cs_timer .pop_up span{display:inline-block;width:100%;text-align:center;padding-top:9px}
+
+.cs_timer .pop_up span{font-weight:bold}
+
+/* 2013/6/05 */
+.cs_timer_popup{position:absolute;width:590px;z-index:100}
+.cs_timer_popup .cs_timer{margin-left:0}
+.cs_timer_popup .popup_header h1 a{display:block;width:62px;height:18px;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat -563px 0}
+.cs_timer_popup .popup_header{margin:8px 0 6px 13px}
+.cs_timer_popup .time_help li{position:relative;width:97px;float:left;height:34px;line-height:34px;text-align:center;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/bg_bar.png) no-repeat 0 12px}
+.cs_timer_popup .btn_time{position:absolute;top:5px;right:3px;width:60px;height:20px}
+.cs_timer_popup .btn_time .line2{display:inline-block;width:1px;height:14px;vertical-align:-1px;margin-right:11px;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/bg_bar2.gif) 0 0 no-repeat}
+.cs_timer_popup .btn_time .btn_timeclose{display:inline-block;width:39px;height:16px;;background:url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat -442px 3px}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>타이머</title>
+    <link rel="stylesheet" type="text/css" href="./css/1.css">
+    <link rel="stylesheet" type="text/css" href="./css/2.css">
+    <link rel="stylesheet" type="text/css" href="./css/3.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script type="text/javascript" src="./js/SD.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+</head>
+<body style="">
+<div class="container" id="_cs_timer">
+    <div class="cs_timer" style="margin-bottom:0">
+        <div class="timer_area">
+            <div class="time_set">
+                <div class="hour_area">
+                    <span class="roll_bg">
+                        <input type="number" value="0" maxlength="1" title="십단위 시간" class="num">
+                        <input type="number" value="0" maxlength="1" title="일단위 시간" class="num">
+                    </span>
+                    <a href="javascript:;" class="btn_up">1시간 추가</a>
+                    <a href="javascript:;" class="btn_down">1시간 내림</a>
+                    <span class="txt">선택하신 시간은  00시간</span>
+                </div>
+                <div class="minute_area">
+                    <span class="roll_bg">
+                        <input type="number" value="0" maxlength="1" title="십단위 분" class="num">
+                        <input type="number" value="0" maxlength="1" title="일단위 분" class="num">
+                    </span>
+                    <a href="javascript:;" class="btn_up">1분올림</a>
+                    <a href="javascript:;" class="btn_down">1분내림</a>
+                    <span class="txt txt2">선택하신 분은 00분</span>
+                </div>
+                <div class="second_area">
+                    <span class="roll_bg">
+                        <input type="number" value="0" maxlength="1" title="십단위 초" class="num">
+                        <input type="number" value="0" maxlength="1" title="일단위 초" class="num">
+                    </span>
+                    <a href="javascript:;" class="btn_up">1초올림</a>
+                    <a href="javascript:;" class="btn_down">1초내림</a>
+                    <span class="txt txt3">선택하신 초는 00초</span>
+                </div>
+            </div>
+            <!-- [D] 스타트버튼과 리셋버튼 비활성화 clas="off추가" -->
+            <div class="btn_area">
+                <button type="button" class="btn btn-primary">START</button>
+                <!--button type="button" class="class="btn btn-danger""  style="display:none">STOP</button>
+                <button type="button" class="btn btn-warning">RESTART</button -->
+                <button type="button" class="btn btn-warning">RESET</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./js/nhn.js" charset="utf-8"></script>
+<script type="text/javascript">
+    (function(){
+        new nhn.search.timer.Timer({
+            isPopup : true
+        });
+    })();
+</script>
+
+</body>
+</html>
