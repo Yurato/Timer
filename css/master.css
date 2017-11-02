@@ -3,3 +3,11 @@
 body{
   font-family: 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic';
 }
+
+#time{
+  float: left;
+}
+
+#btn_area{
+  float: right;
+}

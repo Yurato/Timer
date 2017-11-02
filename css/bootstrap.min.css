@@ -4159,6 +4159,7 @@ tbody.collapse.show {
     color: #004085;
     background-color: #cce5ff;
     border-color: #b8daff;
+    height: 65px;
 }
 .alert-primary hr {
     border-top-color: #9fcdff;

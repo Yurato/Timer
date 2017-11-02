@@ -5,15 +5,15 @@
     <title>타이머</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/master.css">
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/master.js"></script>
 </head>
 
 <body>
 <div class="container">
-    <div class="alert alert-primary" role="alert">
-      <div class="number">
+    <div class="alert alert-primary">
+      <div id="time">
         <button type="button" class="btn btn-info" id="increaseQuantity"><span id="numberUpDown">0</span></button>
         <button type="button" class="btn btn-info" id="increaseQuantity"><span id="numberUpDown">0</span></button>
         :
@@ -23,9 +23,12 @@
         <button type="button" class="btn btn-info" id="increaseQuantity"><span id="numberUpDown">0</span></button>
         <button type="button" class="btn btn-info" id="increaseQuantity"><span id="numberUpDown">0</span></button>
       </div>
-      <div class="" id="button">
-
-      </div>
+        <div id="btn_area">
+              <button type="button" class="btn btn-primary"><span class="blind">START</span></button>
+              <!-- button type="button" class="btn btn-danger"  style="display:none"><span class="blind">STOP</span></button>
+              <button type="button" class="btn btn-warning"><span class="blind">RESTART</span></button -->
+              <input class="btn btn-warning" type="reset" value="Reset">
+        </div>
     </div>
 </div>
 
