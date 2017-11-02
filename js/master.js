@@ -4,7 +4,7 @@ $(function () {
         var stat = $('#numberUpDown').text();
         var num = parseInt(stat, 10);
         num--;
-        if (num <= 0) {
+        if (num < 0) {
             alert('더이상 줄일수 없습니다.');
             num = 0;
         }
